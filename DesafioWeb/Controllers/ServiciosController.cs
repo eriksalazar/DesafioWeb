@@ -2,7 +2,7 @@
 
 namespace DesafioWeb.Controllers
 {
-    public class AboutController : Controller
+    public class ServiciosController : Controller
     {
         public ActionResult Index()
         {

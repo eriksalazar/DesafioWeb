@@ -157,13 +157,13 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Context\ApplicationDataContext.cs" />
-    <Compile Include="Controllers\AboutController.cs" />
+    <Compile Include="Controllers\AcercaDeNosotrosController.cs" />
     <Compile Include="Controllers\BlogController.cs" />
-    <Compile Include="Controllers\ContactController.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ContactoController.cs" />
+    <Compile Include="Controllers\InicioController.cs" />
     <Compile Include="Controllers\OtherController.cs" />
     <Compile Include="Controllers\PortfolioController.cs" />
-    <Compile Include="Controllers\ServicesController.cs" />
+    <Compile Include="Controllers\ServiciosController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -219,16 +219,16 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Inicio\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\About\Index.cshtml" />
+    <Content Include="Views\AcercaDeNosotros\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Services\Index.cshtml" />
+    <Content Include="Views\Servicios\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Contact\Index.cshtml" />
+    <Content Include="Views\Contacto\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Blog\Post.cshtml" />

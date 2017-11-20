@@ -2,7 +2,7 @@
 
 namespace DesafioWeb.Controllers
 {
-    public class ContactController : Controller
+    public class AcercaDeNosotrosController : Controller
     {
         public ActionResult Index()
         {

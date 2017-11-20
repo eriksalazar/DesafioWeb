@@ -26,29 +26,29 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
-                @Html.ActionLink("Iglesia Internacional Desafío", "Index", new { controller = "Home" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Iglesia Internacional Desafío", "Index", new { controller = "Inicio" }, new { @class = "navbar-brand" })
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav navbar-right h5">
                     <li id="about">
-                       @Html.ActionLink("Acerca de la Iglesia", "Index", "About")
+                       @Html.ActionLink("Acerca de la Iglesia", "Index", "AcercaDeNosotros")
                     </li>
                     <li id="services">
-                        @Html.ActionLink("Servicios y Horarios", "Index", "Services")
+                        @Html.ActionLink("Servicios y Horarios", "Index", "Servicios")
                     </li>
                     <li id="ministeries">
-                        @Html.ActionLink("Ministerios", "Index", "Contact")
+                        @Html.ActionLink("Ministerios", "Index", "Contacto")
                     </li>
                     <li id="events">
-                        @Html.ActionLink("Eventos", "Index", "Contact")
+                        @Html.ActionLink("Eventos", "Index", "Contacto")
                     </li>
                     <li id="contactanos">
-                        @Html.ActionLink("Contactanos", "Index", "Contact")
+                        @Html.ActionLink("Contactanos", "Index", "Contacto")
                     </li>
                     <li id="radio">
-                        @Html.ActionLink("Radio Desafio", "Index", "Contact")
+                        @Html.ActionLink("Radio Desafio", "Index", "Contacto")
                     </li>
                     <li id="blog" class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Prédicas <b class="caret"></b></a>

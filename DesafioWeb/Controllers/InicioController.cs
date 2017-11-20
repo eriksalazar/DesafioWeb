@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace DesafioWeb.Controllers
 {
-    public class HomeController : Controller
+    public class InicioController : Controller
     {
         public ActionResult Index()
         {
