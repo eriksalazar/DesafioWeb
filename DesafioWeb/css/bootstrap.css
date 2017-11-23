@@ -277,8 +277,9 @@ body {
   font-size: 15px;
   line-height: 1.42857143;
   color: #ebebeb;
+  background-color: #339CB2;
   /*background-color: #0b225e;*/
-  background-color: #58A3A1;
+  /*background-color: #58A3A1;*/
 }
 input,
 button,
@@ -4112,7 +4113,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding: 8px 15px;
   margin-bottom: 21px;
   list-style: none;
-  background-color: #151398;
+  background-color: #4e5d6c;
   border-radius: 0;
 }
 .breadcrumb > li {
