@@ -159,6 +159,7 @@
     <Compile Include="Context\ApplicationDataContext.cs" />
     <Compile Include="Controllers\AcercaDeNosotrosController.cs" />
     <Compile Include="Controllers\BlogController.cs" />
+    <Compile Include="Controllers\MinisteriosController.cs" />
     <Compile Include="Controllers\ContactoController.cs" />
     <Compile Include="Controllers\InicioController.cs" />
     <Compile Include="Controllers\OtherController.cs" />
@@ -173,7 +174,9 @@
     <Compile Include="ViewModels\AccountViewModels.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Images\ApostolyEsposa.jpg" />
     <Content Include="Content\Images\IglesiaDesafio1.jpg" />
+    <Content Include="Content\Images\LaIglesia.JPG" />
     <Content Include="css\bootstrap-theme.css" />
     <Content Include="css\bootstrap-theme.min.css" />
     <Content Include="css\bootstrap.css" />
@@ -192,6 +195,9 @@
     <Content Include="Scripts\jquery-3.2.1.min.js" />
     <Content Include="Scripts\jquery-3.2.1.slim.js" />
     <Content Include="Scripts\jquery-3.2.1.slim.min.js" />
+    <Content Include="Views\Ministerios\Index.cshtml">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
