@@ -277,7 +277,7 @@ body {
   font-size: 15px;
   line-height: 1.42857143;
   color: #ebebeb;
-  background-color: #339CB2;
+  background-color: #052742;
   /*background-color: #0b225e;*/
   /*background-color: #58A3A1;*/
 }
@@ -4020,7 +4020,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #ebebeb;
 }
 .navbar-inverse {
-  background-color: #c99909;
+  background-color: #797055;
   border-color: transparent;
 }
 .navbar-inverse .navbar-brand {

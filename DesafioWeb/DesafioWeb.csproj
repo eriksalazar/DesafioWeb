@@ -175,8 +175,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Images\ApostolyEsposa.jpg" />
+    <Content Include="Content\Images\header.jpg" />
     <Content Include="Content\Images\IglesiaDesafio1.jpg" />
     <Content Include="Content\Images\LaIglesia.JPG" />
+    <Content Include="Content\Images\mies.jpg" />
     <Content Include="css\bootstrap-theme.css" />
     <Content Include="css\bootstrap-theme.min.css" />
     <Content Include="css\bootstrap.css" />
