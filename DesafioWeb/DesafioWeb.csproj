@@ -175,10 +175,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Images\ApostolyEsposa.jpg" />
+    <Content Include="Content\Images\bible.jpg" />
     <Content Include="Content\Images\header.jpg" />
     <Content Include="Content\Images\IglesiaDesafio1.jpg" />
     <Content Include="Content\Images\LaIglesia.JPG" />
     <Content Include="Content\Images\mies.jpg" />
+    <Content Include="Content\Images\praisinghands.jpg" />
+    <Content Include="Content\Images\praisinghands2.jpg" />
+    <Content Include="Content\Images\slide-1.jpg" />
+    <Content Include="Content\Images\slide-2.jpg" />
+    <Content Include="Content\Images\slide-3.jpg" />
     <Content Include="css\bootstrap-theme.css" />
     <Content Include="css\bootstrap-theme.min.css" />
     <Content Include="css\bootstrap.css" />
@@ -193,6 +199,10 @@
     <None Include="Properties\PublishProfiles\DesafioWeb.pubxml" />
     <None Include="Properties\PublishProfiles\DesafioWebAzure.pubxml" />
     <None Include="Scripts\jquery-3.2.1.intellisense.js" />
+    <Content Include="js\jquery.scrollex.min.js" />
+    <Content Include="js\main.js" />
+    <Content Include="js\skel.min.js" />
+    <Content Include="js\util.js" />
     <Content Include="Scripts\jquery-3.2.1.js" />
     <Content Include="Scripts\jquery-3.2.1.min.js" />
     <Content Include="Scripts\jquery-3.2.1.slim.js" />

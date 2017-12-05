@@ -1,7 +1,7 @@
 ﻿@{
     ViewBag.Title = "Inicio";
 }
-<div id="myCarousel" class="carousel slide">
+@*<div id="myCarousel" class="carousel slide">
     <!-- Indicators -->
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -12,13 +12,13 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
         <div class="item active">
-            <div class="fill" style="background-image:url('../../Content/Images/mies.jpg');"></div>
+            <div class="fill" style="background-image:url('~/../Content/Images/mies.jpg');"></div>
             <div class="carousel-caption">
                 <h1>Tu Elijes tu Destino</h1>
             </div>
         </div>
         <div class="item">
-            <div class="fill" style="background-image:url('../../Content/Images/header.jpg');"></div>
+            <div class="fill" style="background-image:url('~/../Content/Images/header.jpg');"></div>
             <div class="carousel-caption">
                 <h1>1900x1080 Aumentar contenido</h1>
             </div>
@@ -40,7 +40,42 @@
     <a class="right carousel-control" href="#myCarousel" data-slide="next">
         <span class="icon-next"></span>
     </a>
-</div>
+</div>*@
+
+<!-- Banner -->
+<section class="banner full">
+    <article>
+        <img src="~/Content/Images/mies.jpg" />
+       
+        <div class="inner">
+            <header>
+                <p>Tu Elijes tu Destino</p>
+                <h2>Desafio</h2>
+            </header>
+        </div>
+    </article>
+    <article>
+        <img src="~/Content/Images/header.jpg" />
+       
+        <div class="inner">
+            <header>
+                <p>Unete</p>
+                <h2>Cambiemos al Mundo!</h2>
+            </header>
+        </div>
+    </article>
+    <article>
+        <img src="~/Content/Images/bible.jpg" />
+        @*<img src="images/slide03.jpg" alt="" />*@
+        <div class="inner">
+            <header>
+                <p>El Camino, la verdad y la vida</p>
+                <h2>JESUS</h2>
+            </header>
+        </div>
+    </article>
+   
+</section>
 
 <div class="section">
 
