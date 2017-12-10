@@ -43,15 +43,18 @@
                         @Html.ActionLink("Ministerios", "Index", "Ministerios")
                     </li>
                     <li id="events">
-                        @Html.ActionLink("Eventos", "Index", "Contacto")
+                        @Html.ActionLink("Eventos", "Index", "Eventos")
                     </li>
                     <li id="contactanos">
                         @Html.ActionLink("Contactanos", "Index", "Contacto")
                     </li>
                     <li id="radio">
-                        @Html.ActionLink("Radio Desafio", "Index", "Contacto")
+                        @Html.ActionLink("Radio Desafio", "Index", "RadioDesafio")
                     </li>
-                    <li id="blog" class="dropdown">
+                    <li id="predicas">
+                       @Html.ActionLink("Prédicas", "Index", "Predicas")
+                    </li>
+                    @*<li id="blog" class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Prédicas <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li id="blogpost">
@@ -62,21 +65,8 @@
                                 @Html.ActionLink("Blog del Pastor", "Post", "Blog")
                             </li>
                         </ul>
-                    </li>
-                    @*<li id="other" class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li id="fullwidthpage">
-                                @Html.ActionLink("Full Width Page", "FullWidth", "Other")
-                            </li>
-                            
-                            
-                            <li id="404">
-                                @Html.ActionLink("404", "FourOhFour", "Other")
-                            </li>
-                            
-                        </ul>
                     </li>*@
+                   
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

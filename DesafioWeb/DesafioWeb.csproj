@@ -159,6 +159,9 @@
     <Compile Include="Context\ApplicationDataContext.cs" />
     <Compile Include="Controllers\AcercaDeNosotrosController.cs" />
     <Compile Include="Controllers\BlogController.cs" />
+    <Compile Include="Controllers\PredicasController.cs" />
+    <Compile Include="Controllers\EventosController.cs" />
+    <Compile Include="Controllers\RadioDesafioController.cs" />
     <Compile Include="Controllers\MinisteriosController.cs" />
     <Compile Include="Controllers\ContactoController.cs" />
     <Compile Include="Controllers\InicioController.cs" />
@@ -176,15 +179,29 @@
   <ItemGroup>
     <Content Include="Content\Images\ApostolyEsposa.jpg" />
     <Content Include="Content\Images\bible.jpg" />
+    <Content Include="Content\Images\bigcross.jpg" />
+    <Content Include="Content\Images\bridge.jpg" />
+    <Content Include="Content\Images\cross.jpg" />
+    <Content Include="Content\Images\crossandfamily.jpg" />
+    <Content Include="Content\Images\fall.jpg" />
+    <Content Include="Content\Images\faro.jpg" />
+    <Content Include="Content\Images\goodland.jpg" />
+    <Content Include="Content\Images\handspraising.png" />
     <Content Include="Content\Images\header.jpg" />
     <Content Include="Content\Images\IglesiaDesafio1.jpg" />
+    <Content Include="Content\Images\La-Paz.jpg" />
     <Content Include="Content\Images\LaIglesia.JPG" />
+    <Content Include="Content\Images\lapaz.jpg" />
+    <Content Include="Content\Images\light.jpg" />
+    <Content Include="Content\Images\logo-radio.jpg" />
+    <Content Include="Content\Images\microfono.jpg" />
     <Content Include="Content\Images\mies.jpg" />
     <Content Include="Content\Images\praisinghands.jpg" />
     <Content Include="Content\Images\praisinghands2.jpg" />
     <Content Include="Content\Images\slide-1.jpg" />
     <Content Include="Content\Images\slide-2.jpg" />
     <Content Include="Content\Images\slide-3.jpg" />
+    <Content Include="Content\Images\tree.jpg" />
     <Content Include="css\bootstrap-theme.css" />
     <Content Include="css\bootstrap-theme.min.css" />
     <Content Include="css\bootstrap.css" />
@@ -223,6 +240,9 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Scripts\jquery-3.2.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.2.1.min.map" />
+    <Content Include="Views\RadioDesafio\Index.cshtml" />
+    <Content Include="Views\Eventos\Index.cshtml" />
+    <Content Include="Views\Predicas\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
