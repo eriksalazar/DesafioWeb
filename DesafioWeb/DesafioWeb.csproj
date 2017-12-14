@@ -188,11 +188,10 @@
     <Content Include="Content\Images\goodland.jpg" />
     <Content Include="Content\Images\handspraising.png" />
     <Content Include="Content\Images\header.jpg" />
-    <Content Include="Content\Images\IglesiaDesafio1.jpg" />
     <Content Include="Content\Images\La-Paz.jpg" />
-    <Content Include="Content\Images\LaIglesia.JPG" />
-    <Content Include="Content\Images\lapaz.jpg" />
     <Content Include="Content\Images\light.jpg" />
+    <Content Include="Content\Images\logo-church.jpg" />
+    <Content Include="Content\Images\logo-radio-Half.jpg" />
     <Content Include="Content\Images\logo-radio.jpg" />
     <Content Include="Content\Images\microfono.jpg" />
     <Content Include="Content\Images\mies.jpg" />
