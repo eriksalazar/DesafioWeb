@@ -183,6 +183,7 @@
     <Content Include="Content\Images\bridge.jpg" />
     <Content Include="Content\Images\cross.jpg" />
     <Content Include="Content\Images\crossandfamily.jpg" />
+    <Content Include="Content\Images\DesafioLogo.jpeg" />
     <Content Include="Content\Images\fall.jpg" />
     <Content Include="Content\Images\faro.jpg" />
     <Content Include="Content\Images\goodland.jpg" />
@@ -197,6 +198,7 @@
     <Content Include="Content\Images\mies.jpg" />
     <Content Include="Content\Images\praisinghands.jpg" />
     <Content Include="Content\Images\praisinghands2.jpg" />
+    <Content Include="Content\Images\RadioLogo1900x1080.jpeg" />
     <Content Include="Content\Images\slide-1.jpg" />
     <Content Include="Content\Images\slide-2.jpg" />
     <Content Include="Content\Images\slide-3.jpg" />

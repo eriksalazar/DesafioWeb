@@ -1,38 +1,24 @@
 ﻿@{
-    ViewBag.Title = "Radio Desafío";
+    ViewBag.Title = "Contacto";
 }
-<section class="banner half">
-    <article>
-        <img src="~/Content/Images/RadioLogo1900x1080.jpeg" />
-
-        @*<div class="inner">
-            <header>
-
-                <p>Cambiemos al Mundo</p>
-                <h2>Radio Desafío</h2>
-            </header>
-        </div>*@
-    </article>
-</section>
 <div class="container">
-          
-   <div class="row">
-       <div class="col-lg-12">
-           <div class="audio-player">
-               <p>
-                   <audio autoplay="autoplay" controls="controls" id="audioAJDDHR" preload="auto">
-                       <source src="http://icecasthd.net:49047/live" type="audio/mpeg">
-                       <br>
-                   </audio>
-               </p>
-           </div>
-       </div>
-      
-   </div>
     <div class="row">
-       
+        <div class="col-lg-12">
+            <h1 class="page-header">Contactanos <small>Nos Encantaría Escuchar de Tí!</small></h1>
+            <ol class="breadcrumb">
+                <li>@Html.ActionLink("Inicio", "Index", "Inicio")</li>
+                <li class="active">Contactanos</li>
+            </ol>
+        </div>
+        <div class="col-lg-12">
+            <!-- Embedded Google Map using an iframe - to select your location find it on Google maps and paste the link as the iframe src. If you want to use the Google Maps API instead then have at it! -->
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1912.771036719205!2d-68.13522694208204!3d-16.498709125380188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f2071a7699bb9%3A0x7f1e69d8df6a64a3!2sIglesia+Ministerio+Internacional+Desaf%C3%ADo!5e0!3m2!1sen!2sbo!4v1511233435574" width="100%" scrolling="no" height="400px"  frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div><!-- /.row -->
+    <div class="row">
         <div class="col-sm-8">
-            <h3>Entra En Contacto Con Radio Desafio!</h3>
+            <h3>Entra En Contacto Con Nosotros!</h3>
             <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
             <form action="contact-form-submission.php" method="POST" role="form">
                 <div class="row">
@@ -55,20 +41,20 @@
                     </div>
                     <div class="form-group col-lg-12">
                         <input type="hidden" value="contact" name="save">
-                        <button class="btn btn-primary" type="submit">Enviar</button>
+                        <button class="btn btn-primary" type="submit">Submitír</button>
                     </div>
                 </div>
             </form>
         </div>
         <div class="col-sm-4">
-            <h3>Radio Desafío</h3>
+            <h3>Ministerio Internacional Desafío</h3>
            
             <p>
                 Calle Colon Esquina Camacho - Ex Cine Tesla<br>
                 La Paz, Bolivia<br>
             </p>
-            <p><i class="fa fa-whatsapp"></i> <abbr title="Teléfono">WhatsApp</abbr>: 2 2204784</p>
-            <p><i class="fa fa-envelope-o"></i> <abbr title="Email">Email</abbr>: <a href="mailto:radiodesafio@mi-desafio.org">radiodesafio@mi-desafio.org</a></p>
+            <p><i class="fa fa-phone"></i> <abbr title="Teléfono">Telf</abbr>: 591-2 2204784</p>
+            <p><i class="fa fa-envelope-o"></i> <abbr title="Email">Email</abbr>: <a href="mailto:desafiobo@gmail.com">desafiobo@gmail.com</a></p>
             
             <ul class="list-unstyled list-inline list-social-icons">
                 @*<li class="tooltip-social facebook-link"><a title="Facebook" data-placement="top" data-toggle="tooltip" href="#facebook-page"><i class="fa fa-facebook fa-2x"></i></a></li>
